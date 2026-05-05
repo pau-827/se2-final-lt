@@ -30,6 +30,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Step 5: Run tests
+      - name: Run tests
+        run: pytest tests/
+
   build-docker:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
