@@ -71,7 +71,7 @@ jobs:
         with:
           host: ${{ secrets.SERVER_HOST }}      # Your server's IP address
           username: ${{ secrets.SERVER_USER }}   # SSH username
-          key: ${{ secrets.SERVER_PASSWORD }}     # SSH private key
+          password: ${{ secrets.SERVER_PASSWORD }}     # SSH private key
           script: |
             # Pull the latest image
             docker pull ghcr.io/${{ github.repository }}:latest
