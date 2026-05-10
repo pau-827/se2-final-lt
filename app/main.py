@@ -41,7 +41,7 @@ def home():
         <div class="card">
             <h1>👋 Hello, I'm Ivy!</h1>
             <p>Welcome to my CI/CD Flask App 🚀</p>
-            <p>This app is deployed using GitHub Actions, Docker, and Azure.</p>
+            <p>This app is deployed using GitHub Actions, Docker, and Azure 🚀</p>
             <div class="tag">Status: Running smoothly ✅</div>
         </div>
     </body>
